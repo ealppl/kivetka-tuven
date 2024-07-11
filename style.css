@@ -1,0 +1,124 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; /* границы и внутренние отступы теперь не увеличивают размер элементов */
+    font-family: Roboto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.tulen {
+    max-height: 400px;
+    margin-bottom: 20px;
+    border-radius: 25px 25px;    
+    filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+    /* transition: .2s; */
+    /* cursor: pointer; */
+}
+.tulen:hover {
+    /* transform:rotate(180deg); */
+    /* transition: .2s; */
+    box-shadow: 0 0 10px rgb(89, 230, 255);
+}
+
+
+/* .tulen:active:focus { */
+    /* background-image: url(./assets/Tuven-2.jpg); */
+/* } */
+
+.first-p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.actions {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clickhug {
+    padding: 10px 10px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 10px 10px;
+    transition: .2s;
+    filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25))
+}
+
+.clickhug:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgb(80, 173, 255);
+
+}
+
+.clickhug:active {
+    background-color: rgb(80, 173, 255);    
+    /* box-shadow: 0 0 10px rgb(80, 173, 255); */
+}
+
+.clicklove {  
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 10px 10px;
+    font-weight: 700;
+    transition: .2s;
+    filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25))
+}
+
+.clicklove:hover {  
+    transform: translateY(-5px);
+    
+    box-shadow: 0 0 10px rgb(255, 98, 98);
+}
+
+
+.clicklove:active {
+    background-color: rgb(255, 98, 98);
+    /* box-shadow: 0 0 10px rgb(255, 98, 98); */
+
+}
+
+.clickshelp {
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 0px solid black;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 10px 10px;
+    transition: .2s;
+    filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25))
+}
+
+
+.clickshelp:hover {
+    transform: translateY(-5px);
+    
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.clickshelp:active:focus {
+    /* box-shadow: 0 0 10px rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
+    background-image: url(./assets/smile.png);
+    background-size: contain;
+    background-position: center;
+    color:transparent;
+}
