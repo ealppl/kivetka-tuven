@@ -29,11 +29,13 @@ h1 {
     /* width: 100%; */
 }
 
-.tulen {
+.img-tulen {
     max-height: 400px;
     margin-bottom: 20px;
     border-radius: 25px 25px;    
+    /* margin-right: 20px; */
     filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+    /* background-size: auto; */
     /* margin: 20px 20px 20px 20px; */
     /* transition: .2s; */
     /* cursor: pointer; */
@@ -155,6 +157,22 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+    .img-tulen {
+        max-height: 360px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* border-radius: 25px 25px;     */
+        /* margin-right: 20px; */
+        width: 100%;
+        /* min-width: 300px; */
+        filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+        /* background-size: auto; */
+        /* margin: 20px 20px 20px 20px; */
+        /* transition: .2s; */
+        /* cursor: pointer; */
+    }
+    
     .first-p {
         display: flex;
         justify-content: center;
@@ -213,7 +231,22 @@ h1 {
         /* transition: .2s; */
         /* cursor: pointer; */
     /* } */
-
+    .img-tulen {
+        max-height: 300px;
+        margin-bottom: 20px;
+        border-radius: 25px 25px;    
+        /* margin-right: 20px; */
+        filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+        /* background-size: auto; */
+        /* margin: 20px 20px 20px 20px; */
+        /* transition: .2s; */
+        /* cursor: pointer; */
+        margin-left: 10px;
+        margin-right: 10px;
+        /* border-radius: 25px 25px;     */
+        /* margin-right: 20px; */
+        width: 100%;
+    }
 
     .actions {
         background-color: white;
@@ -223,5 +256,6 @@ h1 {
         flex-direction: column;
         gap: 20px;
         flex-wrap: wrap;
+        /* min-width: 300px; */
     }
 }
